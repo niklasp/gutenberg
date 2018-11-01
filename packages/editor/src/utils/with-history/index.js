@@ -112,6 +112,10 @@ const withHistory = ( options = {} ) => ( reducer ) => {
 			return state;
 		}
 
+		if ( includes( options.ignoreTypes, action.type ) ) {
+			return state;
+		}
+
 		let nextPast = past;
 
 		if (
