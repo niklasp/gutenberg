@@ -6,7 +6,7 @@ Block Patterns are predefined block layouts, ready to insert and tweak.
 
 ### register_block_pattern
 
-The editor comes with a list of built-in block patterns. Theme and plugin authors can register addition custom block patterns using the `register_block_pattern` function.
+The editor comes with a list of built-in block patterns. Theme and plugin authors can register additional custom block patterns using the `register_block_pattern` function.
 
 The `register_block_pattern` function receives the name of the pattern as the first argument and an array describing properties of the pattern as the second argument.
 
